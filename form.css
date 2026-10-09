@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background: #d1d5db;
+    margin: 0;
+    padding: 25px;
+    color: #333;
+}
+
+#stu_form {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 25px;
+    background: rgb(78, 63, 63);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px #0002;
+}
+
+
+header {
+    margin: 0px;
+    padding: 25px;
+    color: white;
+    background-color: rgb(78, 63, 63);
+    border-radius: 10px;
+    box-shadow: 0 4px 12px #0002;
+}
+
+label {
+    display: block;
+    margin: 10px 0 6px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    background: #4338ca;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#output {
+    margin-top: 20px;
+    padding: 15px;
+    background: #36383b;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    #stu_form {
+        margin: 10px auto;
+        padding: 18px;
+    }
+}
+
+footer {
+    margin-top: 30px;
+    padding: 25px;
+    color: white;
+    background-color: rgb(78, 63, 63);
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px #0002;
+}
